@@ -1,5 +1,13 @@
 function ExpenseItem() {
-  return <h2>This is a Expense Item!</h2>;
+  return (
+    <div>
+      <div>Date</div>
+      <div>
+        <h2>Item Name</h2>
+        <div>Amount</div>
+      </div>
+    </div>
+  );
 }
 
 export default ExpenseItem;
